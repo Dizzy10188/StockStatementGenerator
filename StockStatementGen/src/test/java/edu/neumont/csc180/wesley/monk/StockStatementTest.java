@@ -8,14 +8,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class StockStatementTest {
 
-    @BeforeEach
-    void setUp() {
-    }
-
-    @AfterEach
-    void tearDown() {
-    }
-
     @Test
     public void should_read_JSON_data(){
 

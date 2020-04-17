@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d94fef56-d739-48bb-b80b-2b0634b1ce9b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/neumont/csc180/wesley/monk/StockStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neumont/csc180/wesley/monk/StockStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/neumont/csc180/wesley/monk/StockStatementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neumont/csc180/wesley/monk/StockStatementTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/neumont/csc180/wesley/monk/StockStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neumont/csc180/wesley/monk/StockStatement.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neumont/csc180/wesley/monk/StockStatementTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/neumont/csc180/wesley/monk/StockStatementTest.class" afterDir="false" />
     </list>
@@ -54,9 +56,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StockStatement">
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.neumont.csc180.wesley.monk.Program" />
+  <component name="RunManager" selected="JUnit.StockStatementTest.should_pass_PDF_Maker">
+    <configuration name="StockStatementTest.should_create_all_html_and_pdf_pages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StockStatementGen" />
       <extension name="coverage">
         <pattern>
@@ -64,12 +65,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="edu.neumont.csc180.wesley.monk" />
+      <option name="MAIN_CLASS_NAME" value="edu.neumont.csc180.wesley.monk.StockStatementTest" />
+      <option name="METHOD_NAME" value="should_create_all_html_and_pdf_pages" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.neumont.csc180.wesley.monk.StockStatement" />
+    <configuration name="StockStatementTest.should_fail_HTML_Maker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StockStatementGen" />
       <extension name="coverage">
         <pattern>
@@ -77,14 +81,69 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="edu.neumont.csc180.wesley.monk" />
+      <option name="MAIN_CLASS_NAME" value="edu.neumont.csc180.wesley.monk.StockStatementTest" />
+      <option name="METHOD_NAME" value="should_fail_HTML_Maker" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockStatementTest.should_fail_PDF_Maker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StockStatementGen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neumont.csc180.wesley.monk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neumont.csc180.wesley.monk" />
+      <option name="MAIN_CLASS_NAME" value="edu.neumont.csc180.wesley.monk.StockStatementTest" />
+      <option name="METHOD_NAME" value="should_fail_PDF_Maker" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockStatementTest.should_pass_HTML_Maker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StockStatementGen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neumont.csc180.wesley.monk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neumont.csc180.wesley.monk" />
+      <option name="MAIN_CLASS_NAME" value="edu.neumont.csc180.wesley.monk.StockStatementTest" />
+      <option name="METHOD_NAME" value="should_pass_HTML_Maker" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockStatementTest.should_pass_PDF_Maker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StockStatementGen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neumont.csc180.wesley.monk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neumont.csc180.wesley.monk" />
+      <option name="MAIN_CLASS_NAME" value="edu.neumont.csc180.wesley.monk.StockStatementTest" />
+      <option name="METHOD_NAME" value="should_pass_PDF_Maker" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StockStatement" />
-        <item itemvalue="Application.Program" />
+        <item itemvalue="JUnit.StockStatementTest.should_pass_PDF_Maker" />
+        <item itemvalue="JUnit.StockStatementTest.should_pass_HTML_Maker" />
+        <item itemvalue="JUnit.StockStatementTest.should_fail_PDF_Maker" />
+        <item itemvalue="JUnit.StockStatementTest.should_fail_HTML_Maker" />
+        <item itemvalue="JUnit.StockStatementTest.should_create_all_html_and_pdf_pages" />
       </list>
     </recent_temporary>
   </component>
@@ -102,32 +161,36 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="222" key="GridCell.Tab.0.bottom" timestamp="1587064173207">
+    <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1587136473269">
+      <screen x="1920" y="0" width="1920" height="1030" />
+    </state>
+    <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1030/0.0.1536.824@1920.0.1920.1030" timestamp="1587136473269" />
+    <state width="1877" height="383" key="GridCell.Tab.0.bottom" timestamp="1587137161675">
       <screen x="1920" y="0" width="1920" height="1030" />
     </state>
     <state width="1493" height="224" key="GridCell.Tab.0.bottom/1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1586965555605" />
-    <state width="1877" height="222" key="GridCell.Tab.0.bottom/1920.0.1920.1030/0.0.1536.824@1920.0.1920.1030" timestamp="1587064173207" />
+    <state width="1877" height="383" key="GridCell.Tab.0.bottom/1920.0.1920.1030/0.0.1536.824@1920.0.1920.1030" timestamp="1587137161675" />
     <state width="1493" height="225" key="GridCell.Tab.0.bottom/1920.1.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1586809609328" />
     <state width="1493" height="261" key="GridCell.Tab.0.bottom/1920.1.1920.1030/0.0.1536.824@1920.1.1920.1030" timestamp="1586895231872" />
-    <state width="1877" height="222" key="GridCell.Tab.0.center" timestamp="1587064173207">
+    <state width="1877" height="383" key="GridCell.Tab.0.center" timestamp="1587137161675">
       <screen x="1920" y="0" width="1920" height="1030" />
     </state>
     <state width="1493" height="224" key="GridCell.Tab.0.center/1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1586965555604" />
-    <state width="1877" height="222" key="GridCell.Tab.0.center/1920.0.1920.1030/0.0.1536.824@1920.0.1920.1030" timestamp="1587064173207" />
+    <state width="1877" height="383" key="GridCell.Tab.0.center/1920.0.1920.1030/0.0.1536.824@1920.0.1920.1030" timestamp="1587137161675" />
     <state width="1493" height="225" key="GridCell.Tab.0.center/1920.1.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1586809609327" />
     <state width="1493" height="261" key="GridCell.Tab.0.center/1920.1.1920.1030/0.0.1536.824@1920.1.1920.1030" timestamp="1586895231872" />
-    <state width="1877" height="222" key="GridCell.Tab.0.left" timestamp="1587064173207">
+    <state width="1877" height="383" key="GridCell.Tab.0.left" timestamp="1587137161675">
       <screen x="1920" y="0" width="1920" height="1030" />
     </state>
     <state width="1493" height="224" key="GridCell.Tab.0.left/1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1586965555604" />
-    <state width="1877" height="222" key="GridCell.Tab.0.left/1920.0.1920.1030/0.0.1536.824@1920.0.1920.1030" timestamp="1587064173207" />
+    <state width="1877" height="383" key="GridCell.Tab.0.left/1920.0.1920.1030/0.0.1536.824@1920.0.1920.1030" timestamp="1587137161675" />
     <state width="1493" height="225" key="GridCell.Tab.0.left/1920.1.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1586809609327" />
     <state width="1493" height="261" key="GridCell.Tab.0.left/1920.1.1920.1030/0.0.1536.824@1920.1.1920.1030" timestamp="1586895231872" />
-    <state width="1877" height="222" key="GridCell.Tab.0.right" timestamp="1587064173207">
+    <state width="1877" height="383" key="GridCell.Tab.0.right" timestamp="1587137161675">
       <screen x="1920" y="0" width="1920" height="1030" />
     </state>
     <state width="1493" height="224" key="GridCell.Tab.0.right/1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1586965555605" />
-    <state width="1877" height="222" key="GridCell.Tab.0.right/1920.0.1920.1030/0.0.1536.824@1920.0.1920.1030" timestamp="1587064173207" />
+    <state width="1877" height="383" key="GridCell.Tab.0.right/1920.0.1920.1030/0.0.1536.824@1920.0.1920.1030" timestamp="1587137161675" />
     <state width="1493" height="225" key="GridCell.Tab.0.right/1920.1.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1586809609327" />
     <state width="1493" height="261" key="GridCell.Tab.0.right/1920.1.1920.1030/0.0.1536.824@1920.1.1920.1030" timestamp="1586895231872" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1586895231872">
@@ -150,9 +213,10 @@
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/1920.1.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1586808129290" />
     <state width="1493" height="261" key="GridCell.Tab.1.right/1920.1.1920.1030/0.0.1536.824@1920.1.1920.1030" timestamp="1586895231872" />
-    <state x="598" y="83" key="Maven.ArtifactSearchDialog" timestamp="1586807035763">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2698" y="223" key="Maven.ArtifactSearchDialog" timestamp="1587136496687">
+      <screen x="1920" y="0" width="1920" height="1030" />
     </state>
+    <state x="2698" y="223" key="Maven.ArtifactSearchDialog/1920.0.1920.1030/0.0.1536.824@1920.0.1920.1030" timestamp="1587136496687" />
     <state x="598" y="83" key="Maven.ArtifactSearchDialog/1920.1.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1586807035763" />
     <state x="2576" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587049534922">
       <screen x="1920" y="0" width="1920" height="1030" />

@@ -18,27 +18,22 @@ import java.util.Iterator;
 
 public class StockStatement {
     @SuppressWarnings("unchecked")
-    public static void main(String[] args) throws IOException {
+    public static void main() throws IOException {
         JSONParser parser = new JSONParser();
         try {
             Object obj = parser.parse(new FileReader("stock_transations.by.account.holder.json"));
             System.out.println();
             JSONArray accountList = (JSONArray) obj;
-            int i = 0;
             for (Object val : accountList) {
-                if (i>=1) {
-                    break;
-                }
-                HTMLCreater(val);
-                i++;
+                JSONObject jsonObject = (JSONObject) val;
+                HTMLCreater(jsonObject);
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    private static void HTMLCreater(Object val) throws IOException {
-        JSONObject jsonObject = (JSONObject) val;
+    public static void HTMLCreater(JSONObject jsonObject) throws IOException {
         if (jsonObject.get("account_number") != null && jsonObject.get("ssn") != null && jsonObject.get("first_name")
                 != null && jsonObject.get("last_name") != null && jsonObject.get("email") 
                 != null && jsonObject.get("phone") != null && jsonObject.get("beginning_balance") != null 
@@ -165,7 +160,7 @@ public class StockStatement {
         }
     }
 
-    private static void PDFCreater(long accountID) {
+    public static void PDFCreater(long accountID) {
         File file = new File("html/" + accountID + ".html");
         if (file.exists()) {
             try (OutputStream os = new FileOutputStream("pdf/" + accountID + ".pdf")) {
